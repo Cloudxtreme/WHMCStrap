@@ -1,8 +1,7 @@
 WHMCStrap
 =========
 
-Simple Bootstrap 3 WHMCS Template
-
+Simple Bootstrap 3 WHMCS Template.
 
 <h3>Who?</h3>
 

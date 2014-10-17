@@ -7,7 +7,7 @@
 	<div class="panel-body">
 		
 		<div class="well well-sm">
-			<p style="margin-top:10px;">Once you complete your order, we'll create a login account in our customer area for you to manage all your services with us. Please let us know your email address, and pick a password for your account. <strong>Are you a Webforward customer already?</strong> <a href="#" data-toggle="modal" data-target="#loginbox">Sign in here</a> to use your existing account billing details.</p>
+			<p style="margin-top:10px;">Once you complete your order, we'll create a login account in our customer area for you to manage all your services with us. Please let us know your email address, and pick a password for your account. <strong>Are you a customer already?</strong> <a href="#" data-toggle="modal" data-target="#loginbox">Sign in here</a> to use your existing account billing details.</p>
 		</div>
 	
 		<div class="row">

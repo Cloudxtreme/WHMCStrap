@@ -7,16 +7,6 @@
 
 {if $errormessage}<div class="errorbox">{$errormessage|replace:'<li>':' &nbsp;#&nbsp; '} &nbsp;#&nbsp; </div><br />{/if}
 
-<!--
-<div class="orderbox">
-<b class="orderboxrtop"><b class="r1"></b><b class="r2"></b><b class="r3"></b><b class="r4"></b></b>
-<div class="orderboxpadding">
-<b>{$productinfo.groupname} - {$productinfo.name}</b><br />{$productinfo.description}
-</div>
-<b class="orderboxrbottom"><b class="r4"></b><b class="r3"></b><b class="r2"></b><b class="r1"></b></b>
-</div>
--->
-
 {if $productinfo}
 <div class="panel panel-primary">
 	<input type="hidden" name="previousbillingcycle" value="{$billingcycle}" />
@@ -160,7 +150,7 @@
 
     <div class="panel-body">
         <div class="well well-sm">
-            <p style="margin-top:10px;">{$LANG.cartcustomfieldsdesc}</p>
+            <p class="well-text">{$LANG.cartcustomfieldsdesc}</p>
         </div>
 
         {foreach key=num item=customfield from=$customfields}

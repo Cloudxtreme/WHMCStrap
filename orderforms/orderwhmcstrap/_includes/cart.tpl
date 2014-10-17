@@ -1,6 +1,6 @@
 {if !$cartitems}
 
-<table class="table table-striped table-framed">
+<table class="table table-striped table-bordered">
 
 	<thead>
 		<tr>
@@ -21,7 +21,7 @@
 
 {else}
 
-<table class="table table-striped table-framed">
+<table class="table table-striped table-bordered">
 
 	<thead>
 		<tr>

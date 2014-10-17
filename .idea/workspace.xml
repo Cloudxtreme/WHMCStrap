@@ -2,37 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d33e690-b170-4de7-a621-30d70d476adf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/static/css/select2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/3dsecure.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/affiliates.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/affiliatessignup.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/announcements.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/static/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/banned.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/static/css/bootwhmcs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/bulkdomainchecker.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/bulkdomainmanagement.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/bulkdomaintransfer.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareaaddcontact.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareaaddfunds.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareacancelrequest.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareachangepw.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareacontacts.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareacreditcard.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareadetails.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareadetailslinks.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareadomainaddons.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareadomaincontactinfo.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareadomaindetails.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareadomaindns.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareadomainemailforwarding.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareadomaingetepp.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareadomainregisterns.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareadomains.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareaemails.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareahome.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareainvoices.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareaproductdetails.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareaproducts.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareaquotes.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientarearecordslimit.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientareasecurity.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/clientregister.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/contact.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/contactaccessdenied.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/creditcard.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/domainchecker.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/downloaddenied.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/downloads.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/downloadscat.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/footer.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/forwardpage.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/header.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/homepage.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/static/css/invoice.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/invoicepdf.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/knowledgebase.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/knowledgebasearticle.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/knowledgebasecat.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/login.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/logout.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/masspay.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/pageheader.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/pwreset.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/pwresetvalidation.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/pwstrength.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/quotepdf.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/static/css/select2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/static/js/select2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/serverstatus.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/static/js/statesdropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/supportticketslist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/supportticketsubmit-confirm.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/supportticketsubmit-kbsuggestions.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/supportticketsubmit-stepone.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/supportticketsubmit-steptwo.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/ticketfeedback.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/unsubscribe.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/upgrade.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/upgradesummary.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/viewannouncement.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/viewemail.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/viewinvoice.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/viewquote.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/viewticket.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whmcstrap/whois.tpl" />
       <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\_includes\_notes\dwsync.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\_includes\_viewcart\_notes\dwsync.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\_includes\_viewcart\customerdetails.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\_includes\_viewcart\customfields.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\_includes\_viewcart\domainsinorder.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\_includes\_viewcart\js.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\_includes\_viewcart\paymentmethod.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\_includes\cart.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\_includes\footer.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\_includes\header.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\_notes\dwsync.xml" afterPath="" />
       <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\_styles\_notes\dwsync.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\_styles\style.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\adddomain.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\addons.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\complete.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\configuredomains.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\configureproduct.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\configureproductdomain.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\domainrenewals.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\error.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\fraudcheck.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\login.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\products.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\style.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\verticalsteps.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\webtotal\WHMCStrap\WHMCStrap\orderforms\orderwhmcstrap\viewcart.tpl" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/orderforms/orderwhmcstrap/configureproduct.tpl" afterPath="$PROJECT_DIR$/orderforms/orderwhmcstrap/configureproduct.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/orderforms/orderwhmcstrap/style.css" afterPath="$PROJECT_DIR$/orderforms/orderwhmcstrap/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WHMCStrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,11 +122,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="configureproduct.tpl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="configureproduct.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orderforms/orderwhmcstrap/configureproduct.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5377856" vertical-offset="1224" max-vertical-offset="3723">
-              <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
+            <state vertical-scroll-proportion="-7.5" vertical-offset="2644" max-vertical-offset="3842">
+              <caret line="167" column="105" selection-start-line="167" selection-start-column="105" selection-end-line="167" selection-end-column="105" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/orderforms/orderwhmcstrap/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.72039473" vertical-offset="1704" max-vertical-offset="2312">
+              <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -95,15 +160,20 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Mark" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/orderforms/orderwhmcstrap/style.css" />
         <option value="$PROJECT_DIR$/orderforms/orderwhmcstrap/_includes/header.tpl" />
         <option value="$PROJECT_DIR$/orderforms/orderwhmcstrap/_includes/footer.tpl" />
         <option value="$PROJECT_DIR$/orderforms/orderwhmcstrap/configureproduct.tpl" />
+        <option value="$PROJECT_DIR$/orderforms/orderwhmcstrap/style.css" />
       </list>
     </option>
   </component>
@@ -155,24 +225,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WHMCStrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WHMCStrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WHMCStrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orderforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orderwhmcstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -231,6 +283,13 @@
       <option name="number" value="Default" />
       <updated>1413569737884</updated>
     </task>
+    <task id="LOCAL-00001" summary="Small Changes to template">
+      <created>1413576989279</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1413576989279</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -240,17 +299,18 @@
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -275,20 +335,14 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Small Changes to template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small Changes to template" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/orderforms/orderwhmcstrap/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13980263" vertical-offset="51" max-vertical-offset="2873">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/orderforms/orderwhmcstrap/_includes/footer.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3076923" vertical-offset="34" max-vertical-offset="935">
@@ -307,8 +361,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/orderforms/orderwhmcstrap/configureproduct.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5377856" vertical-offset="1224" max-vertical-offset="3723">
-          <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
+        <state vertical-scroll-proportion="-7.5" vertical-offset="2644" max-vertical-offset="3842">
+          <caret line="167" column="105" selection-start-line="167" selection-start-column="105" selection-end-line="167" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orderforms/orderwhmcstrap/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72039473" vertical-offset="1704" max-vertical-offset="2312">
+          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -72,44 +72,51 @@
 	</div>
 
 	<div class="panel-body">
+
 		<div class="well well-sm">
 			<p style="margin-top:10px;">{$LANG.cartconfigoptionsdesc}</p>
 		</div>
-		
-		<table>
-			{foreach key=num item=configoption from=$configurableoptions}
-			
-			<tr><td>{$configoption.optionname}:</td><td>
-			
-			{if $configoption.optiontype eq 1}
-			
-			<select name="configoption[{$configoption.id}]">
-				{foreach key=num2 item=options from=$configoption.options}
-					<option value="{$options.id}"{if $configoption.selectedvalue eq $options.id} selected="selected"{/if}>{$options.name}</option>
-				{/foreach}
-			</select>
-			
-			{elseif $configoption.optiontype eq 2}
-			
-			{foreach key=num2 item=options from=$configoption.options}
-			<label><input type="radio" name="configoption[{$configoption.id}]" value="{$options.id}"{if $configoption.selectedvalue eq $options.id} checked="checked"{/if}> {$options.name}</label><br />
-			{/foreach}
-			{elseif $configoption.optiontype eq 3}
-			
-			<label>
-				<input type="checkbox" name="configoption[{$configoption.id}]" value="1"{if $configoption.selectedqty} checked{/if}> 
-				{$configoption.options.0.name}
-			</label>
-			
-			{elseif $configoption.optiontype eq 4}
-			
-			<input type="text" name="configoption[{$configoption.id}]" value="{$configoption.selectedqty}" size="5"> x {$configoption.options.0.name}
-			
-			
-			{/if}
-			</td></tr>
-			{/foreach}
-		</table>
+
+        {foreach key=num item=configoption from=$configurableoptions}
+
+            {if $configoption.optiontype eq 1}
+
+            <div class="form-group">
+
+                <label>{$configoption.optionname}:</label>
+                <select class="form-control" name="configoption[{$configoption.id}]">
+                {foreach key=num2 item=options from=$configoption.options}
+                    <option value="{$options.id}"{if $configoption.selectedvalue eq $options.id} selected="selected"{/if}>{$options.name}</option>
+                {/foreach}
+                </select>
+
+            </div>
+
+            {elseif $configoption.optiontype eq 2}
+
+            {foreach key=num2 item=options from=$configoption.options}
+                <label>
+                    <input type="radio" name="configoption[{$configoption.id}]" value="{$options.id}"{if $configoption.selectedvalue eq $options.id} checked="checked"{/if}> {$options.name}
+                </label>
+            {/foreach}
+
+            {elseif $configoption.optiontype eq 3}
+
+            <label>
+                <input type="checkbox" name="configoption[{$configoption.id}]" value="1"{if $configoption.selectedqty} checked{/if}>
+                {$configoption.options.0.name}
+            </label>
+
+            {elseif $configoption.optiontype eq 4}
+            <div class="form-group">
+                <label>{$configoption.optionname}:</label>
+                <input type="text" name="configoption[{$configoption.id}]" value="{$configoption.selectedqty}" size="5"> x {$configoption.options.0.name}
+            </div>
+
+            {/if}
+
+        {/foreach}
+
 	</div>
 
 </div>
@@ -158,8 +165,8 @@
 
         {foreach key=num item=customfield from=$customfields}
             <label>{$customfield.name}</label>
-            {$customfield.input}
-            {$customfield.description}
+            {$customfield.input|replace:"<select":"<select class='form-control'"|replace:"<input":"<input class='form-control'"}
+            <span class="help-block">{$customfield.description}</span>
         {/foreach}
 
     </div>
@@ -192,7 +199,7 @@
         {foreach key=domainfieldname item=domainfield from=$additionaldomainfields}
         <div class="form-group">
             <label>{$domainfieldname}</label>
-            {$domainfield}
+            {$domainfield|replace:"<select":"<select class='form-control'"}
         </div>
         {/foreach}
     </div>

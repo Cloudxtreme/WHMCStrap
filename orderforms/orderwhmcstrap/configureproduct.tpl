@@ -70,8 +70,6 @@
 	<div class="panel-heading">
 		<h3 class="panel-title">{$LANG.orderconfigpackage}</h3>
 	</div>
-	
-	
 
 	<div class="panel-body">
 		<div class="well well-sm">
@@ -147,14 +145,25 @@
 {/if}
 
 {if $customfields}
-<p><strong>{$LANG.orderadditionalrequiredinfo}</strong></p>
-<p>{$LANG.cartcustomfieldsdesc}</p>
-<div class="orderbox">
-<table>
-{foreach key=num item=customfield from=$customfields}
-<tr><td>{$customfield.name}:</td><td>{$customfield.input} {$customfield.description}</td></tr>
-{/foreach}
-</table>
+<div class="panel panel-primary">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">{$LANG.orderadditionalrequiredinfo}</h3>
+    </div>
+
+    <div class="panel-body">
+        <div class="well well-sm">
+            <p style="margin-top:10px;">{$LANG.cartcustomfieldsdesc}</p>
+        </div>
+
+        {foreach key=num item=customfield from=$customfields}
+            <label>{$customfield.name}</label>
+            {$customfield.input}
+            {$customfield.description}
+        {/foreach}
+
+    </div>
+
 </div>
 {/if}
 
@@ -173,11 +182,21 @@
 {/if}
 
 {if $additionaldomainfields}
-<table>
-{foreach key=domainfieldname item=domainfield from=$additionaldomainfields}
-<tr><td nowrap>{$domainfieldname}</td><td>{$domainfield}</td></tr>
-{/foreach}
-</table>
+<div class="panel panel-primary">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">{$LANG.orderchooseaddons}</h3>
+    </div>
+
+    <div class="panel-body">
+        {foreach key=domainfieldname item=domainfield from=$additionaldomainfields}
+        <div class="form-group">
+            <label>{$domainfieldname}</label>
+            {$domainfield}
+        </div>
+        {/foreach}
+    </div>
+</div>
 {/if}
 
 {/if}

@@ -1,6 +1,4 @@
-{include file="orderforms/$carttpl/_includes/header.tpl" title=$LANG.cartproductconfig pageinfo=$LANG.cartproductdesc}
-
-{include file="orderforms/$carttpl/verticalsteps.tpl" step=3}
+{include file="orderforms/$carttpl/_includes/header.tpl" step=3 title=$LANG.cartproductconfig pageinfo=$LANG.cartproductdesc}
 
 <form method="post" action="{$smarty.server.PHP_SELF}?a=confproduct&i={$i}">
 <input type="hidden" name="configure" value="true">

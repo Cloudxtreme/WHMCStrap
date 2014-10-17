@@ -12,7 +12,6 @@
         {/if}
 
         <!-- TODO: RIGHT COLUMN -->
-	
 	</div>
 
 </div>

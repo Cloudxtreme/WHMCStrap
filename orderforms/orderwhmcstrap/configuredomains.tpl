@@ -1,6 +1,4 @@
-{include file="orderforms/$carttpl/_includes/header.tpl" title="Now pick your domain name settings" pageinfo=$LANG.cartdomainsconfigdesc}
-
-{include file="orderforms/$carttpl/verticalsteps.tpl" step=3}
+{include file="orderforms/$carttpl/_includes/header.tpl" step=3 title="Now pick your domain name settings" pageinfo=$LANG.cartdomainsconfigdesc}
 
 {if $errormessage}<div class="errorbox">{$errormessage|replace:'<li>':' &nbsp;#&nbsp; '} &nbsp;#&nbsp; </div><br />{/if}
 

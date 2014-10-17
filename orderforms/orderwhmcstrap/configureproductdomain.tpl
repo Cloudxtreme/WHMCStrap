@@ -1,7 +1,5 @@
 {capture name="title"}{$productinfo.groupname} - {$productinfo.name}{/capture} 
-{include file="orderforms/$carttpl/_includes/header.tpl" title=$smarty.capture.title pageinfo=$LANG.cartproductdomaindesc}
-
-{include file="orderforms/$carttpl/verticalsteps.tpl" step=2}
+{include file="orderforms/$carttpl/_includes/header.tpl" step=2 title=$smarty.capture.title pageinfo=$LANG.cartproductdomaindesc}
 
 <form method="post" action="{$smarty.server.PHP_SELF}?a=add&pid={$pid}">
 {foreach from=$passedvariables key=name item=value}

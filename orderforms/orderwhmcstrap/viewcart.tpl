@@ -1,6 +1,5 @@
 {assign var="pageinfo" value="You're nearly there - this is the final step! We just need your payment and personal details, then we'll take care of the rest."}
-{include file="orderforms/$carttpl/_includes/header.tpl" title=$LANG.checkout pageinfo=$pageinfo}
-{include file="orderforms/$carttpl/verticalsteps.tpl" step=4}
+{include file="orderforms/$carttpl/_includes/header.tpl" step=4 title=$LANG.checkout pageinfo=$pageinfo}
 
 {assign var="showcart" value=true}
 

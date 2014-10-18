@@ -1,5 +1,8 @@
 {if $condlinks.domainreg || $condlinks.domaintrans || $condlinks.domainown}
+</div> <!-- CLOSE CONTAINER -->
+
 <div class="jumbotron">
+    <div class="container">
   <h1>{$LANG.domaincheckerchoosedomain}</h1>
   <p>{$LANG.domaincheckerenterdomain}</p>
   
@@ -33,10 +36,12 @@
         {/if}
       </div>
       {/if}
-      
     </div>
   </form>
+        </div>
 </div>
+
+<div class="container"> <!-- REOPEN CONTAINER -->
 {/if}
 
 

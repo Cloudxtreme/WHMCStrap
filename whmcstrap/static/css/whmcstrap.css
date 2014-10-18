@@ -7,6 +7,8 @@ body {
     background-color: #f9f9f9;
 }
 
+.navbar { margin:0; border-radius:0; }
+
 .nav-header h1 {
   display: inline-block;
   margin-top: 0px;

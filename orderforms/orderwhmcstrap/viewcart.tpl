@@ -75,11 +75,11 @@
 	{if !$loggedin}
 		{include file="orderforms/$carttpl/_includes/_viewcart/customerdetails.tpl"}
 	{/if}
-	
-	<!-- CUSTOM FIELDS -->
-	{if !$loggedin && ($customfields || $securityquestions)}
-		{include file="orderforms/$carttpl/_includes/_viewcart/customfields.tpl"}
-	{/if}
+
+    <!-- CUSTOM FIELDS -->
+    {if !$loggedin && ($customfields || $securityquestions)}
+        {include file="orderforms/$carttpl/_includes/_viewcart/customfields.tpl"}
+    {/if}
 	
 	<!-- ARE THERE DOMAINS NAME IN THE ORDER? -->
 	{if $domainsinorder}

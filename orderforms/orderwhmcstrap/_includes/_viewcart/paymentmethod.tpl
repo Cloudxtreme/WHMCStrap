@@ -35,9 +35,9 @@
 				<hr>
 					
 				<div class="row">
-				
-				
-					<div class="col-md-12">
+
+
+                    <div class="col-md-6">
 						<div class="form-group">
 							<label>{$LANG.creditcardcardtype}</label>
 							<select name="cctype" class="form-control">
@@ -52,26 +52,6 @@
 						<div class="form-group">
 							<label>{$LANG.creditcardcardnumber}</label>
 							<input class="form-control" type="text" name="ccnumber" size="30" value="{$ccnumber}" autocomplete="off" />
-						</div>
-						
-						<div class="row">
-						
-							<div class="col-md-3">
-								<span style="font-size:52px; color:#026eae;" class="icon icon-visa"></span>
-							</div>
-							
-							<div class="col-md-3">
-								<span style="font-size:52px; color:#0080c8;" class="icon icon-mastercard"></span>
-							</div>
-							
-							<div class="col-md-3">
-								<span style="font-size:52px; color:#b3cbd4;" class="icon icon-discover"></span>
-							</div>
-							
-							<div class="col-md-3">
-								<span style="font-size:52px; color:#e0b263;" class="icon icon-amex"></span>
-							</div>
-														
 						</div>
 					</div>
 					
@@ -102,15 +82,6 @@
 								</div>
 								
 							</div>
-							
-							<div class="col-md-12">
-								<div class="form-group">
-									<label>{$LANG.creditcardcvvnumber}</label>
-									<input class="form-control" type="text" name="cccvv" value="{$cccvv}" size="5" autocomplete="off" /> 
-									<a href="#" onclick="window.open('images/ccv.gif','','width=280,height=200,scrollbars=no,top=100,left=100');return false">{$LANG.creditcardcvvwhere}</a>
-									{if $shownostore}<label><input type="checkbox" name="nostore" /> {$LANG.creditcardnostore}</label>{/if}
-								</div>
-							</div>
 						
 						</div>
 						
@@ -121,6 +92,19 @@
 						{/if}
 					
 					</div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>{$LANG.creditcardcvvnumber}</label>
+                            <input class="form-control" type="text" name="cccvv" value="{$cccvv}" size="5"
+                                   autocomplete="off"/>
+                            <a href="#"
+                               onclick="window.open('images/ccv.gif','','width=280,height=200,scrollbars=no,top=100,left=100');return false">{$LANG.creditcardcvvwhere}</a>
+                            {if $shownostore}<label>
+                                <input type="checkbox" name="nostore"/>
+                                {$LANG.creditcardnostore}</label>{/if}
+                        </div>
+                    </div>
 					
 					
 				</div>

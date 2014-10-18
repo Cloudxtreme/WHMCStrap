@@ -1,7 +1,8 @@
 {include file="orderforms/$carttpl/_includes/header.tpl" step=3 title=$LANG.cartproductconfig pageinfo=$LANG.cartproductdesc}
 
-<form method="post" action="{$smarty.server.PHP_SELF}?a=confproduct&i={$i}">
+<form method="post" id="orderfrm" action="{$smarty.server.PHP_SELF}?a=confproduct&i={$i}">
 <input type="hidden" name="configure" value="true">
+<input type="hidden" name="i" value="{$i}"/>
 
 {if $errormessage}<div class="errorbox">{$errormessage|replace:'<li>':' &nbsp;#&nbsp; '} &nbsp;#&nbsp; </div><br />{/if}
 
@@ -26,12 +27,24 @@
 			{$pricing.onetime} {$LANG.orderpaymenttermonetime}
 		{else}
 			<select class="form-control" name="billingcycle" onchange="submit()">
-				{if $pricing.monthly}<option value="monthly"{if $billingcycle eq "monthly"} selected="selected"{/if}>{$pricing.monthly}</option>{/if}
-				{if $pricing.quarterly}<option value="quarterly"{if $billingcycle eq "quarterly"} selected="selected"{/if}>{$pricing.quarterly}</option>{/if}
-				{if $pricing.semiannually}<option value="semiannually"{if $billingcycle eq "semiannually"} selected="selected"{/if}>{$pricing.semiannually}</option>{/if}
-				{if $pricing.annually}<option value="annually"{if $billingcycle eq "annually"} selected="selected"{/if}>{$pricing.annually}</option>{/if}
-				{if $pricing.biennially}<option value="biennially"{if $billingcycle eq "biennially"} selected="selected"{/if}>{$pricing.biennially}</option>{/if}
-				{if $pricing.triennially}<option value="triennially"{if $billingcycle eq "triennially"} selected="selected"{/if}>{$pricing.triennially}</option>{/if}
+                {if $pricing.monthly}
+                    <option
+                    value="monthly"{if $billingcycle eq "monthly"} selected="selected"{/if}>{$pricing.monthly|replace:"£0.00GBP":""}</option>{/if}
+                {if $pricing.quarterly}
+                    <option
+                    value="quarterly"{if $billingcycle eq "quarterly"} selected="selected"{/if}>{$pricing.quarterly|replace:"£0.00GBP":""}</option>{/if}
+                {if $pricing.semiannually}
+                    <option
+                    value="semiannually"{if $billingcycle eq "semiannually"} selected="selected"{/if}>{$pricing.semiannually|replace:"£0.00GBP":""}</option>{/if}
+                {if $pricing.annually}
+                    <option
+                    value="annually"{if $billingcycle eq "annually"} selected="selected"{/if}>{$pricing.annually|replace:"£0.00GBP":""}</option>{/if}
+                {if $pricing.biennially}
+                    <option
+                    value="biennially"{if $billingcycle eq "biennially"} selected="selected"{/if}>{$pricing.biennially|replace:"£0.00GBP":""}</option>{/if}
+                {if $pricing.triennially}
+                    <option
+                    value="triennially"{if $billingcycle eq "triennially"} selected="selected"{/if}>{$pricing.triennially|replace:"£0.00GBP":""}</option>{/if}
 			</select>
 		{/if}
   </div>
@@ -204,6 +217,9 @@
 {/if}
 </p>
 
+<script>recalctotals();</script>
+
 </form>
+
 
 {include file="orderforms/$carttpl/_includes/footer.tpl"}

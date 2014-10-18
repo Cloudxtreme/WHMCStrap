@@ -1,23 +1,30 @@
 {if !$cartitems}
+    <div class="panel panel-primary">
 
-<table class="table table-striped table-bordered">
+        <div class="panel-heading">
+            <h3 class="panel-title">Cart</h3>
+        </div>
 
-	<thead>
-		<tr>
-			<th>Description</th>
-			<th>Price</th>
-		</tr>
-	</thead>
-	
-	<tbody>
-		<tr>
-			<td colspan="2">
-				{$LANG.ordersummarybegin}
-			</td>
-		</tr>
-	</tbody>
-	
-</table>
+        <table class="table table-striped table-bordered">
+
+            <thead>
+            <tr>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td colspan="2">
+                    {$LANG.ordersummarybegin}
+                </td>
+            </tr>
+            </tbody>
+
+        </table>
+
+    </div>
 
 {else}
 

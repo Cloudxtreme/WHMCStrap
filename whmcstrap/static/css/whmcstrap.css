@@ -4,8 +4,7 @@ html {
 }
 
 body {
-  margin-top: 20px;
-  margin-bottom: 80px;
+    background-color: #f9f9f9;
 }
 
 .nav-header h1 {
@@ -34,13 +33,6 @@ body {
 
 .headerSortasc:after {
   content: "\f078";
-}
-
-#footer {
-  height: 80px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 table.ticketrating {

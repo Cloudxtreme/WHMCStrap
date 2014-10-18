@@ -58,32 +58,52 @@
 {/foreach}
 
 {if $atleastonenohosting}
-<h2>{$LANG.domainnameservers}</h2>
-<p>{$LANG.cartnameserversdesc}</p>
-<div class="orderbox">
-<table class="noborders">
-<tr><td>{$LANG.domainnameserver1}:</td><td><input type="text" name="domainns1" size="40" value="{$domainns1}" /></td></tr>
-<tr><td>{$LANG.domainnameserver2}:</td><td><input type="text" name="domainns2" size="40" value="{$domainns2}" /></td></tr>
-<tr><td>{$LANG.domainnameserver3}:</td><td><input type="text" name="domainns3" size="40" value="{$domainns3}" /></td></tr>
-<tr><td>{$LANG.domainnameserver4}:</td><td><input type="text" name="domainns4" size="40" value="{$domainns4}" /></td></tr>
-<tr><td>{$LANG.domainnameserver5}:</td><td><input type="text" name="domainns5" size="40" value="{$domainns5}" /></td></tr>
-</table>
-</div>
+    <div class="panel panel-primary">
+
+        <div class="panel-heading">
+            <h3 class="panel-title">{$LANG.domainnameservers}</h3>
+        </div>
+
+        <div class="panel-body">
+
+            <div class="well">
+                {$LANG.cartnameserversdesc}
+            </div>
+
+            <div class="form-group">
+                <label>{$LANG.domainnameserver1}</label>
+                <input class="form-control" type="text" name="domainns1" size="40" value="{$domainns1}"/>
+            </div>
+
+            <div class="form-group">
+                <label>{$LANG.domainnameserver2}</label>
+                <input class="form-control" type="text" name="domainns2" size="40" value="{$domainns2}"/>
+            </div>
+
+            <div class="form-group">
+                <label>{$LANG.domainnameserver3}</label>
+                <input class="form-control" type="text" name="domainns3" size="40" value="{$domainns3}"/>
+            </div>
+
+            <div class="form-group">
+                <label>{$LANG.domainnameserver4}</label>
+                <input class="form-control" type="text" name="domainns4" size="40" value="{$domainns4}"/>
+            </div>
+
+            <div class="form-group">
+                <label>{$LANG.domainnameserver5}</label>
+                <input class="form-control" type="text" name="domainns5" size="40" value="{$domainns5}"/>
+            </div>
+
+
+        </div>
+
+    </div>
 {/if}
 
-<p align="center"><input class="btn btn-primary" type="submit" value="{$LANG.updatecart}" /></p>
+    <p align="center"><input class="btn btn-primary" type="submit" value="{$LANG.updatecart}"/></p>>
 
 </form>
 
-<!--
-{literal}
-<script>
-$(document).ready(function(e) {
-	$('.form-group select').addClass('form-control');
-	$('.form-group input[type="text"]').addClass('form-control');
-});
-</script>
-{/literal}
--->
-
 {include file="orderforms/$carttpl/_includes/footer.tpl"}
+

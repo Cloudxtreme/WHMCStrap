@@ -1,40 +1,5 @@
-<link rel="stylesheet" type="text/css" href="templates/orderforms/{$carttpl}/style.css" />
+{include file="orderforms/$carttpl/_includes/header.tpl" step=1 title="Product Selection" pageinfo="Select a product below, use the dropdown to adjust the services offered"}
 
-<div id="order-verticalsteps">
-
-{include file="orderforms/verticalsteps/verticalsteps.tpl" step=2}
-
-<div class="maincontent">
-
-<div class="left">
-
-<form method="get" action="{$smarty.server.PHP_SELF}">
-<p>{$LANG.ordercategories}: <select name="gid" onchange="submit()">
-{foreach key=num item=productgroup from=$productgroups}
-<option value="{$productgroup.gid}">{$productgroup.name}</option>
-{/foreach}
-{if $loggedin}
-<option value="addons">{$LANG.cartproductaddons}</option>
-{if $renewalsenabled}<option value="renewals">{$LANG.domainrenewals}</option>{/if}
-{/if}
-{if $registerdomainenabled}<option value="domains" selected="selected">{$LANG.orderdomainregonly}</option>{/if}
-</select></p>
-</form>
-
-</div>
-<div class="right">
-
-{if !$loggedin && $currencies}
-<form method="post" action="cart.php?a=add&domain=register">
-<p align="right">{$LANG.choosecurrency}: <select name="currency" onchange="submit()">{foreach from=$currencies item=curr}
-<option value="{$curr.id}"{if $curr.id eq $currency.id} selected{/if}>{$curr.code}</option>
-{/foreach}</select> <input type="submit" value="Go" /></p>
-</form>
-{/if}
-
-</div>
-
-<br /><br /><br />
 
 <form method="post" action="{$smarty.server.PHP_SELF}?a=add">
 
@@ -48,19 +13,31 @@
 
 </div>
 
+
+
 <div class="orderbox textcenter">
 
-www. <input type="text" name="sld" size="40" value="{$sld}" /> <select name="tld">
-{foreach key=num item=listtld from=$tlds}
-<option value="{$listtld}"{if $listtld eq $tld} selected="selected"{/if}>{$listtld}</option>
-{/foreach}
-</select>
+    www. <input type="text" name="sld" size="40" value="{$sld}" />
 
+    <select name="tld">
+        {foreach key=num item=listtld from=$tlds}
+        <option value="{$listtld}"{if $listtld eq $tld} selected="selected"{/if}>{$listtld}</option>
+        {/foreach}
+    </select>
+s
 </div>
 
 <p align="center"><input type="submit" value="{$LANG.checkavailability}" /></p>
 
 </form>
+
+
+
+
+
+
+
+
 
 {if $availabilityresults}
 
@@ -81,6 +58,4 @@ www. <input type="text" name="sld" size="40" value="{$sld}" /> <select name="tld
 
 {/if}
 
-</div>
-
-</div>
+{include file="orderforms/$carttpl/_includes/footer.tpl"}

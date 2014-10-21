@@ -1,31 +1,8 @@
-<link rel="stylesheet" type="text/css" href="templates/orderforms/{$carttpl}/style.css" />
+{include file="orderforms/$carttpl/_includes/header.tpl" step=1 title="Product Selection" pageinfo="Select a product below, use the dropdown to adjust the services offered"}
 
-<div id="order-verticalsteps">
+<!-- <p>{$LANG.domainrenewdesc}</p> -->
 
-{include file="orderforms/verticalsteps/verticalsteps.tpl" step=2}
 
-<div class="maincontent">
-
-<div class="left">
-
-<form method="get" action="{$smarty.server.PHP_SELF}">
-<p>{$LANG.ordercategories}: <select name="gid" onchange="submit()">
-{foreach key=num item=productgroup from=$productgroups}
-<option value="{$productgroup.gid}">{$productgroup.name}</option>
-{/foreach}
-{if $loggedin}
-<option value="addons">{$LANG.cartproductaddons}</option>
-<option value="renewals" selected="selected">{$LANG.domainrenewals}</option>
-{/if}
-{if $registerdomainenabled}<option value="domains">{$LANG.orderdomainregonly}</option>{/if}
-</select></p>
-</form>
-
-</div>
-
-<br /><br /><br />
-
-<p>{$LANG.domainrenewdesc}</p>
 
 <form method="post" action="cart.php?a=add&renewals=true">
 
@@ -66,6 +43,4 @@
 
 </form>
 
-</div>
-
-</div>
+{include file="orderforms/$carttpl/_includes/footer.tpl"}
